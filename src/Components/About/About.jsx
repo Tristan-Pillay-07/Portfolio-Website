@@ -4,7 +4,7 @@ import CV from "../../assets/TristanPillay_CV.pdf";
 
 const About = () => {
   return (
-    <div className="container-fluid about-body">
+    <div className="container-fluid about-body" id="about">
       <div className="row">
         <div className="col-12 col-md-6">
           <h3>About me</h3>

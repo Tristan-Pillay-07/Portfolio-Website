@@ -24,7 +24,10 @@ const Footer = () => {
             <a href="#about" className="text-white text-decoration-none mx-2">
               About
             </a>
-            <a href="#contact" className="text-white text-decoration-none mx-2">
+            <a
+              href="mailto:tristantpillay@gmail.com"
+              className="text-white text-decoration-none mx-2"
+            >
               Contact
             </a>
             <a

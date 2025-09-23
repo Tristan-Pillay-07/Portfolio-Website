@@ -3,7 +3,7 @@ import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 const Projects = () => {
   return (
-    <div className="container-fluid projects-body">
+    <div className="container-fluid projects-body" id="projects">
       <h1>My Recent Projects</h1>
       <div className="row">
         <div className="col-12 col-md-6 single-project">

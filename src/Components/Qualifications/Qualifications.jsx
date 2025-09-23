@@ -3,7 +3,7 @@ import Building from "../../assets/building.jpg";
 
 const Qualifications = () => {
   return (
-    <div className="container-fluid quali-body">
+    <div className="container-fluid quali-body" id="qualifications">
       <div className="row">
         <div className="col-12 col-md-4 item-column">
           <img className="quali-image" src={Building} alt="image of me" />
