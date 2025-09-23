@@ -1,0 +1,38 @@
+.quali-body {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  display: grid;
+  place-items: center;
+}
+
+.item-column {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+}
+.item-block {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-items {
+  list-style-type: none;
+}
+
+.linkedin-link {
+  color: white;
+  margin-top: 40px;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+  font-weight: 300;
+}
+
+.quali-image {
+  margin: 20px auto;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+}
