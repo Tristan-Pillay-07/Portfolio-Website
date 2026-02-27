@@ -1,6 +1,6 @@
 import "./Header.css";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import MeImage from "../../assets/me.png";
+import MeImage from "../../assets/Me.png";
 import Typewriter from "typewriter-effect";
 
 const Header = () => {
