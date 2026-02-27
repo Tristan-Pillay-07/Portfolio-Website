@@ -27,5 +27,8 @@
 .nav-contact {
   border-radius: 50px;
   padding: 10px 38px;
-  background: rgb(172, 172, 172);
+  background: rgb(247, 247, 247);
+}
+.nav-contact a {
+  color: black;
 }

@@ -30,7 +30,7 @@ const Projects = () => {
               onClick={() =>
                 window.open(
                   "https://github.com/Tristan-Pillay-07/37-Base",
-                  "_blank"
+                  "_blank",
                 )
               }
             >
@@ -38,6 +38,7 @@ const Projects = () => {
             </button>
           </div>
         </div>
+
         <div className="col-12 col-md-6 single-project">
           <h2>Jokes Web App</h2>
           <h4>ASP.NET MVC</h4>
@@ -51,7 +52,7 @@ const Projects = () => {
               onClick={() =>
                 window.open(
                   "https://github.com/Tristan-Pillay-07/JokesWebApp",
-                  "_blank"
+                  "_blank",
                 )
               }
             >
@@ -60,6 +61,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
+
       <div className="row">
         <div className="col-12 col-md-6 single-project">
           <h2>Login & Sign-up Form</h2>
@@ -74,7 +76,7 @@ const Projects = () => {
               onClick={() =>
                 window.open(
                   "https://github.com/Tristan-Pillay-07/React-Login-Form",
-                  "_blank"
+                  "_blank",
                 )
               }
             >
@@ -92,7 +94,7 @@ const Projects = () => {
               onClick={() =>
                 window.open(
                   "https://github.com/Tristan-Pillay-07/Car-Website-Header",
-                  "_blank"
+                  "_blank",
                 )
               }
             >
@@ -101,6 +103,65 @@ const Projects = () => {
           </div>
         </div>
       </div>
+
+      <div className="row">
+        <div className="col-12 col-md-6 single-project">
+          <h2>Employee Portal</h2>
+          <h4>ASP.NET, ReactJS, Redux, SQL Server</h4>
+          <p>
+            This project is built using .NET Web API with a React frontend,
+            implementing a modern full-stack architecture. It focuses on
+            building and consuming RESTful APIs while ensuring efficient client
+            server communication.
+            <br /> Through this project, I have been deepening my understanding
+            of API integration with React and Redux, particularly around state
+            management, asynchronous data handling, and maintaining a clean,
+            scalable code structure.
+          </p>
+          <div className="button-container">
+            <button
+              className="project-button"
+              onClick={() =>
+                window.open(
+                  "https://github.com/Tristan-Pillay-07/Employee-Portal-Project",
+                  "_blank",
+                )
+              }
+            >
+              Github
+            </button>
+          </div>
+        </div>
+        <div className="col-12 col-md-6 single-project">
+          <h2>MAUI Weather App</h2>
+          <h4>.NET MAUI</h4>
+          <p>
+            This project is a .NET MAUI Weather Application integrated with the
+            Open-Meteo API, designed to deliver real-time weather data through a
+            clean and responsive cross-platform interface. Through this build, I
+            have been strengthening my understanding of asynchronous programming
+            (async/await) to handle API calls efficiently and ensure smooth user
+            experiences. I have also been applying the MVVM
+            (Model-View-ViewModel) architectural pattern to maintain a clear
+            separation of concerns, improve code organization, and support
+            scalability.
+          </p>
+          <div className="button-container">
+            <button
+              className="project-button"
+              onClick={() =>
+                window.open(
+                  "https://github.com/Tristan-Pillay-07/Weather-App",
+                  "_blank",
+                )
+              }
+            >
+              Github
+            </button>
+          </div>
+        </div>
+      </div>
+
       <div className="row">
         <div className="col">
           <a
